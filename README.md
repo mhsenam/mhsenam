@@ -1,228 +1,117 @@
-<img
-      src="https://github.com/mhsenam/mhsenam/assets/18097925/b3cce6ba-0c8a-4665-a165-14e97540d195"
-      alt="mhsenam"
-  />
-<h1 align="center">Hi 👋, I'm Mohsen Amini</h1>
-<h3 align="center">
-  A passionate, creative, responsible & fast Front-end developer.
-</h3>
+<div align="center">
 
+```
+ ███╗   ███╗██╗  ██╗███████╗███████╗███╗   ██╗ █████╗ ███╗   ███╗
+ ████╗ ████║██║  ██║██╔════╝██╔════╝████╗  ██║██╔══██╗████╗ ████║
+ ██╔████╔██║███████║███████╗█████╗  ██╔██╗ ██║███████║██╔████╔██║
+ ██║╚██╔╝██║██╔══██║╚════██║██╔══╝  ██║╚██╗██║██╔══██║██║╚██╔╝██║
+ ██║ ╚═╝ ██║██║  ██║███████║███████╗██║ ╚████║██║  ██║██║ ╚═╝ ██║
+ ╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝     ╚═╝
+```
 
-<p align="left">
-  <a href="https://github.com/ryo-ma/github-profile-trophy"
-    ><img
-      src="https://github-profile-trophy.vercel.app/?username=mhsenam"
-      alt="mhsenam"
-  /></a>
-</p>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=7EE787&center=true&vCenter=true&width=620&lines=whoami+%3A+Mohsen+Amini;Frontend+Engineer+%7C+React+%2B+Next.js;I+ship+interfaces+that+feel+inevitable)](https://git.io/typing-svg)
 
-As a seasoned Frontend Developer with 3 years of dedicated experience, I bring a
-wealth of expertise to the table. Here's a glimpse into my profile: 
+[![GitHub followers](https://img.shields.io/github/followers/mhsenam?style=for-the-badge&logo=github&color=7EE787&logoColor=white&labelColor=0D1117)](https://github.com/mhsenam)
+[![Profile views](https://komarev.com/ghpvc/?username=mhsenam&style=for-the-badge&color=238636&label=PROFILE+VIEWS)](https://github.com/mhsenam)
+[![Website](https://img.shields.io/badge/mhsenam.ir-0D1117?style=for-the-badge&logo=google-chrome&logoColor=7EE787)](https://mhsenam.ir)
+[![X](https://img.shields.io/badge/@mhsenam-0D1117?style=for-the-badge&logo=x&logoColor=7EE787)](https://twitter.com/mhsenam)
 
-- 🔭 I've been honing my skills in the Frontend realm for the past three years, tackling
-various challenges and constantly evolving with the ever-changing landscape of
-web development. 
+</div>
 
-- 👨‍💻 You can explore a comprehensive collection of my projects
-on GitHub, where I showcase my proficiency in crafting elegant and efficient
-solutions. 
+---
 
-- 💬 Feel free to engage with me on topics ranging from
-**JavaScript**, **ReactJS**, and **NextJS** to the intricacies of **Tailwind
-CSS** . I'm passionate about these technologies and
-always eager to share insights and knowledge. 
+```ts
+const mohsen = {
+  handle: "mhsenam",
+  role: "Frontend Engineer @ ActionModel",
+  runtime: ["TypeScript", "React", "Next.js"],
+  styling: ["Tailwind", "Sass", "shadcn/ui"],
+  backendWhenNeeded: ["Node.js", "NestJS", "MongoDB"],
+  currently: "crafting UIs that don't fight the user",
+  fuels: ["hard problems", "mathematics", "literature"],
+  ping: "mohsenamini1081@gmail.com",
+} as const;
 
-- 📫 Want to connect? Drop me a line via Gmail at mohsenamini1081@gmail.com or reach out to me on Telegram at **[@mhsenam](https://t.me/mhsenam)**.
-I'm readily available to discuss collaborations, projects, or simply chat about our shared interests. 
+export default mohsen;
+```
 
-- 🤟🏾 Fun fact: Beyond coding, I have a deep-rooted love for challenges, mathematics, and
-literature. Whether it's unraveling complex problems or diving into the world of
-words, I thrive on the thrill of discovery and exploration.
+I build interfaces the way a compiler should treat code: **strict types, no dead paths, and zero mystery meat**. Three years in the frontend trenches — React, Next.js, and the CSS that actually ships.
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-  <a href="https://linkedin.com/in/mhsenam" target="blank"
-    ><img
-      align="center"
-      src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
-      alt="mhsenam"
-      height="30"
-      width="40"
-  /></a>
-  <a href="https://instagram.com/mhsenamm" target="blank"
-    ><img
-      align="center"
-      src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg"
-      alt="mhsenamm"
-      height="30"
-      width="40"
-  /></a>
-  <a href="https://www.twitter.com/@mhsenam" target="blank"
-    ><img
-      align="center"
-      src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg"
-      alt="mhsenam"
-      height="30"
-      width="40"
-  /></a>
-</p>
+<details>
+<summary><b>// more ./about</b></summary>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left" class="tools">
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
-    <img
-      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
-      alt="css3"
-      width="40"
-      height="40"
-    />
-  </a>
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
-    <img
-      src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg"
-      alt="html5"
-      width="40"
-      height="40"
-    />
-  </a>
-  <a
-    href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-    target="_blank"
-    rel="noreferrer"
-  >
-    <img
-      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
-      alt="javascript"
-      width="40"
-      height="40"
-    />
-  </a>
-  <a href="https://www.npmjs.com/package/web3" target="_blank" rel="noreferrer">
-    <img
-      src="https://raw.githubusercontent.com/ChainSafe/web3.js/HEAD/assets/logo/web3js.jpg"
-      alt="web3js"
-      width="40"
-      height="40"
-    />
-  </a>
-  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer">
-    <img
-      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
-      alt="typescript"
-      width="40"
-      height="40"
-    />
-  </a>
-  <a href="https://sass-lang.com" target="_blank" rel="noreferrer">
-    <img
-      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg"
-      alt="sass"
-      width="40"
-      height="40"
-    />
-  </a>
-  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
-    <img
-      src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
-      alt="tailwindcss"
-      width="40"
-      height="40"
-    />
-  </a>
-  <a href="https://react.dev/" target="_blank" rel="noreferrer">
-    <img
-      src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg"
-      alt="react"
-      width="40"
-      height="40"
-    />
-  </a>
-  <a href="https://nextjs.org/" target="_blank" rel="noreferrer">
-    <img
-      src="https://www.datocms-assets.com/98835/1684410508-image-7.png"
-      alt="nextjs"
-      width="40"
-      height="40"
-    />
-  </a>
-  <a href="https://ui.shadcn.com/" target="_blank" rel="noreferrer">
-    <img
-      src="https://avatars.githubusercontent.com/u/139895814?s=200&v=4"
-      alt="shadcn ui"
-      width="40"
-      height="40"
-    />
-  </a>
-  <a href="https://mui.com/" target="_blank" rel="noreferrer">
-    <img
-      src="https://mui.com/static/logo.png"
-      alt="material ui  "
-      width="40"
-      height="40"
-    />
-  </a>
-  <a
-    href="https://github.com/reduxjs/redux/blob/master/logo/README.md"
-    target="_blank"
-    rel="noreferrer"
-  >
-    <img
-      src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png"
-      alt="redux"
-      width="40"
-      height="40"
-    />
-  </a>
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-    <img
-      src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
-      alt="git"
-      width="40"
-      height="40"
-    />
-  </a>
-  <a href="https://nestjs.com/" target="_blank" rel="noreferrer">
-    <img
-      src="https://www.vectorlogo.zone/logos/nestjs/nestjs-ar21.svg"
-      alt="nestjs"
-      width="40"
-      height="40"
-    />
-  </a>
- 
-  <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
-    <img
-      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
-      alt="mongodb"
-      width="40"
-      height="40"
-    />
-  </a>
-  <a href="https://nodejs.org" target="_blank" rel="noreferrer">
-    <img
-      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
-      alt="nodejs"
-      width="40"
-      height="40"
-    />
-  </a>
-</p>
+- I like problems that look unsolvable until they aren't.
+- Math keeps me honest. Literature keeps me human.
+- If it isn't typed, tested, or tasteful — it isn't done.
+- Always down to talk JS internals, rendering, or a book that rewired you.
 
-<p>
-  <img
-    align="right"
-    src="https://github-readme-stats.vercel.app/api?username=mhsenam&show_icons=true&locale=en"
-    alt="mhsenam"
-  />
+</details>
 
-  
-  <img
-    align="center"
-    src="https://github-readme-streak-stats.herokuapp.com/?user=mhsenam&"
-    alt="mhsenam"
-  />
-  
-</p>
-<p></p>
+---
 
-<p></p>
+### `$ ls ~/stack`
+
+<div align="center">
+
+[![skills](https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,redux,tailwind,sass,nodejs,express,nestjs,mongodb,git,github,vscode,figma&perline=9)](https://skillicons.dev)
+
+`html` `css` `javascript` `typescript` `react` `next.js` `redux` `tailwind` `sass` `shadcn/ui` `mui` `node` `nestjs` `mongodb` `git` `web3`
+
+</div>
+
+---
+
+### `$ cat ~/projects`
+
+| repo | what it actually does |
+|:-----|:----------------------|
+| **[telegram-gmail-bot](https://github.com/mhsenam/telegram-gmail-bot)** | Real-time Gmail → Telegram. Multi-user OAuth, read-only, encrypted tokens. Python. |
+| **[Prompt-Optimizer](https://github.com/mhsenam/Prompt-Optimizer)** | Turns messy “vibe coding” prompts into something a model can actually execute. |
+| **[DevMastery](https://github.com/mhsenam/DevMastery)** | A curriculum for becoming the kind of developer people trust with production. |
+| **[my-portfolio](https://github.com/mhsenam/my-portfolio)** | The public face. TypeScript, because even a homepage deserves types. |
+| **[meetify](https://github.com/mhsenam/meetify)** / **[senlab_meet_ai](https://github.com/mhsenam/senlab_meet_ai)** | Meeting products — realtime UX, AI in the loop. |
+| **[sorena-web-builder](https://github.com/mhsenam/sorena-web-builder)** | A web builder. Drag, drop, ship. |
+| **[3D-Portfolio](https://github.com/mhsenam/3D-Portfolio)** | When 2D wasn't enough. |
+
+---
+
+### `$ git log --stat`
+
+<div align="center">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=mhsenam&show_icons=true&include_all_commits=true&count_private=true&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=7EE787&icon_color=7EE787&text_color=C9D1D9" alt="stats" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mhsenam&layout=compact&langs_count=8&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=7EE787&text_color=C9D1D9" alt="top languages" />
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com/?user=mhsenam&theme=chartreuse-dark&hide_border=true&background=0D1117&ring=7EE787&fire=7EE787&currStreakLabel=7EE787" alt="streak" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mhsenam&theme=github-compact&hide_border=true&bg_color=0D1117&color=7EE787&line=3FB950&point=C9D1D9&area=true" alt="contribution graph" />
+</div>
+
+---
+
+### `$ ssh mhsenam@world`
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mhsenam)
+[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/mhsenam)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/mhsenamm)
+[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/mhsenam)
+[![Email](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mohsenamini1081@gmail.com)
+[![Web](https://img.shields.io/badge/mhsenam.ir-238636?style=for-the-badge&logo=firefox&logoColor=white)](https://mhsenam.ir)
+
+</div>
+
+```
+// if you made it this far, we should talk
+// PRs, collabs, weird ideas — inbox is open
+```
+
+<div align="center">
+
+**`exit 0`**
+
+</div>
