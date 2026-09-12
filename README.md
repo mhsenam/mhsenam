@@ -77,17 +77,25 @@ I build interfaces the way a compiler should treat code: **strict types, no dead
 
 ### `$ git log --stat`
 
+<!--
+  The cards below are served by github-stats-extended.vercel.app — the actively
+  maintained successor to github-readme-stats, whose public Vercel deployment was
+  paused (503 DEPLOYMENT_PAUSED) and whose repo now carries a deprecation notice.
+  Same API, same themes, just a different host.
+
+  .github/workflows/readme-cards.yml bakes these exact cards into ./profile/ as
+  static SVGs every day. Once it has run once you can drop the third-party
+  dependency entirely: replace the three <img> src values below with
+  ./profile/stats.svg, ./profile/top-langs.svg and ./profile/streak.svg.
+-->
+
 <div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=mhsenam&show_icons=true&include_all_commits=true&count_private=true&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=7EE787&icon_color=7EE787&text_color=C9D1D9" alt="stats" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mhsenam&layout=compact&langs_count=8&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=7EE787&text_color=C9D1D9" alt="top languages" />
+  <img height="180" src="https://github-stats-extended.vercel.app/api?username=mhsenam&show_icons=true&include_all_commits=true&count_private=true&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=7EE787&icon_color=7EE787&text_color=C9D1D9" alt="stats" />
+  <img height="180" src="https://github-stats-extended.vercel.app/api/top-langs/?username=mhsenam&layout=compact&langs_count=8&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=7EE787&text_color=C9D1D9" alt="top languages" />
 </div>
 
 <div align="center">
   <img src="https://streak-stats.demolab.com/?user=mhsenam&theme=chartreuse-dark&hide_border=true&background=0D1117&ring=7EE787&fire=7EE787&currStreakLabel=7EE787" alt="streak" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mhsenam&theme=github-compact&hide_border=true&bg_color=0D1117&color=7EE787&line=3FB950&point=C9D1D9&area=true" alt="contribution graph" />
 </div>
 
 ---
