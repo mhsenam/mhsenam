@@ -78,16 +78,18 @@ I build interfaces the way a compiler should treat code: **strict types, no dead
 ### `$ git log --stat`
 
 <div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=mhsenam&show_icons=true&include_all_commits=true&count_private=true&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=7EE787&icon_color=7EE787&text_color=C9D1D9" alt="stats" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mhsenam&layout=compact&langs_count=8&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=7EE787&text_color=C9D1D9" alt="top languages" />
+  <!-- Fixed: migrated from paused github-readme-stats.vercel.app to stable github-stats-extended.vercel.app -->
+  <img height="180" src="https://github-stats-extended.vercel.app/api?username=mhsenam&show_icons=true&include_all_commits=true&count_private=true&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=7EE787&icon_color=7EE787&text_color=C9D1D9&cache_seconds=86400" alt="stats" />
+  <img height="180" src="https://github-stats-extended.vercel.app/api/top-langs/?username=mhsenam&layout=compact&langs_count=8&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=7EE787&text_color=C9D1D9&cache_seconds=86400" alt="top languages" />
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=mhsenam&theme=chartreuse-dark&hide_border=true&background=0D1117&ring=7EE787&fire=7EE787&currStreakLabel=7EE787" alt="streak" />
+  <img src="https://streak-stats.demolab.com/?user=mhsenam&theme=chartreuse-dark&hide_border=true&background=0D1117&ring=7EE787&fire=7EE787&currStreakLabel=7EE787&border_radius=8&cache_seconds=86400" alt="streak" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mhsenam&theme=github-compact&hide_border=true&bg_color=0D1117&color=7EE787&line=3FB950&point=C9D1D9&area=true" alt="contribution graph" />
+  <!-- Fixed: github-readme-activity-graph.vercel.app is currently paused (503 DEPLOYMENT_PAUSED). Using stable fork githubactivitygraph.vercel.app -->
+  <img src="https://githubactivitygraph.vercel.app/graph?username=mhsenam&theme=github-compact&hide_border=true&bg_color=0D1117&color=7EE787&line=3FB950&point=C9D1D9&area=true&custom_title=Contribution%20Graph" alt="contribution graph" />
 </div>
 
 ---
