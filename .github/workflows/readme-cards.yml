@@ -1,0 +1,74 @@
+name: Update README cards
+
+# Bakes the profile stat cards into ./profile as static SVGs and commits them,
+# so the README can reference local files instead of a third-party host.
+#
+# Why this exists: github-readme-stats.vercel.app (and the activity-graph
+# instance) were paused by their owners — 503 DEPLOYMENT_PAUSED — which is what
+# broke the images in this README. The public replacement used here,
+# github-stats-extended.vercel.app, is actively maintained, but a committed SVG
+# can never be paused, rate-limited or shut down by someone else.
+#
+# No secrets required: the built-in GITHUB_TOKEN is enough for public stats.
+# To include private contributions, create a PAT (no scopes needed), add it as a
+# repository secret, and use that instead of secrets.GITHUB_TOKEN below.
+#
+# Heads-up: GitHub disables scheduled workflows on repos with no activity for
+# 60 days. If the daily run goes quiet, re-enable it from the Actions tab or
+# trigger it manually with "Run workflow".
+
+on:
+  schedule:
+    - cron: "37 3 * * *" # daily, off-the-hour to dodge GitHub's cron load spikes
+  push:
+    branches: [main]
+    paths: [".github/workflows/readme-cards.yml"] # runs once, as soon as this file lands
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: readme-cards
+  cancel-in-progress: false
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Generate stats card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: 'username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=7EE787&icon_color=7EE787&text_color=C9D1D9'
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          # Never overwrite a good card with a "Something went wrong" one.
+          fail_on_error: true
+
+      - name: Generate top languages card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: 'username=${{ github.repository_owner }}&layout=compact&langs_count=8&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=7EE787&text_color=C9D1D9'
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate streak card
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          options: 'user=${{ github.repository_owner }}&theme=chartreuse-dark&hide_border=true&background=0D1117&ring=7EE787&fire=7EE787&currStreakLabel=7EE787&disable_animations=true'
+          path: profile/streak.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git diff --cached --quiet || git commit -m "chore: refresh profile stat cards"
+          git push
